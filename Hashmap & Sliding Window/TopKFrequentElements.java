@@ -1,3 +1,11 @@
+/*
+ * PROBLEM: Top K Frequent Elements
+ * STATEMENT: Aapko ek integer array 'nums' aur ek integer 'k' diya hai. Array mein jo elements sabse zyada baar (most frequent) aaye hain, unme se top 'k' elements ko return karna hai.
+ * EXAMPLE: nums = [1, 1, 1, 1, 1, 2, 2, 3, 3, 3, 3, 3, 3], k = 2
+ * Output: [1, 3]
+ * (Explanation: Yahan '3' sabse zyada 6 baar aaya hai, aur '1' uske baad 5 baar aaya hai. Top 2 sabse zyada aane wale elements '3' aur '1' hain.)
+ */
+
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.PriorityQueue;

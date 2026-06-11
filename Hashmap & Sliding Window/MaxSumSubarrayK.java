@@ -1,3 +1,16 @@
+/*
+ * PROBLEM: Maximum Sum Subarray of Size K (Sliding Window)
+ * STATEMENT: Aapko ek integer array 'nums' aur ek integer 'k' diya hai. Aapko 'k' size ka ek aisa contiguous subarray (lagatar elements) dhoondna hai jiska sum sabse zyada (maximum) ho, aur woh maximum sum return karna hai. Aapne isme Sliding Window Technique ka use kiya hai jisse har baar naye element ko jodte hain aur pichle element ko hatate hain.
+ * EXAMPLE: nums = [2, 1, 1, 1, 3, 2], k = 3
+ * Output: 6
+ * (Explanation: Size 3 ke alag-alag subarrays ka sum yeh hoga:
+ * [2, 1, 1] -> Sum = 4
+ * [1, 1, 1] -> Sum = 3
+ * [1, 1, 3] -> Sum = 5
+ * [1, 3, 2] -> Sum = 6
+ * In sabme se sabse zyada sum 6 hai, jo ki subarray [1, 3, 2] ka hai.)
+ */
+
 public class MaxSumSubarrayK {
     public static void main(String[] args) {
         int[] nums = {2, 1, 1, 1, 3, 2};

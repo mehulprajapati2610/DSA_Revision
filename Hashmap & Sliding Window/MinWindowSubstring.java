@@ -1,3 +1,11 @@
+/*
+ * PROBLEM: Minimum Window Substring
+ * STATEMENT: Aapko do strings 's' aur 't' di gayi hain. Aapko string 's' mein se woh sabse choti substring (window) dhoondni hai jisme string 't' ke saare characters (unke required counts/frequencies ke saath) shamil hon. Agar 's' mein aisi koi substring nahi milti, toh ek khaali string "" return karni hai.
+ * EXAMPLE: s = "ADOBECODEBANC", t = "ABC"
+ * Output: "BANC"
+ * (Explanation: String 's' ke andar aisi bohot si windows hain jisme 'A', 'B', aur 'C' teeno hain, jaise "ADOBEC" aur "CODEBA". Lekin un sabme se sabse choti aur aakhiri window "BANC" hai jiska size sirf 4 hai.)
+ */
+
 import java.util.HashMap;
 import java.util.Map;
 

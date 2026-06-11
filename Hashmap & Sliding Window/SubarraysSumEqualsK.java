@@ -1,3 +1,11 @@
+/*
+ * PROBLEM: Subarray Sum Equals K
+ * STATEMENT: Array mein aise kitne lagatar elements ke groups (subarrays) hain jinka total jod (sum) 'k' ke barabar hai, unka count return karein.
+ * EXAMPLE: nums = [3, 4, 7, 2, -3], k = 7
+ * Output: 2
+ * (Explanation: Aise 2 subarrays hain: [3, 4] aur [7], jinka sum 7 hai.)
+ */
+
 import java.util.HashMap;
 
 public class SubarraysSumEqualsK {
