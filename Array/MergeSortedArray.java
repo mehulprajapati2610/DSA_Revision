@@ -1,3 +1,11 @@
+/*
+ * PROBLEM: Merge Sorted Array
+ * STATEMENT: Aapko do sorted integer arrays 'nums1' aur 'nums2' diye hain, jo non-decreasing order mein sorted hain. Saath hi 'm' aur 'n' diya hai jo dono arrays ke actual elements ke count ko darshate hain. Aapko dono arrays ko merge karke ek hi sorted array banana hai, aur result ko alag se return karne ke bajay 'nums1' array ke andar hi in-place store karna hai. Isliye 'nums1' ka total size (m + n) hota hai, jahan aakhiri 'n' elements ko 0 se initialize kiya jata hai taaki 'nums2' ke elements fit ho sakein.
+ * EXAMPLE: nums1 = [1, 2, 24, 30, 0, 0, 0], nums2 = [17, 27, 37]
+ * Output: [1, 2, 17, 24, 27, 30, 37]
+ * (Explanation: Jab hum [1, 2, 24, 30] aur [17, 27, 37] ko merge karte hain, toh final sorted array [1, 2, 17, 24, 27, 30, 37] banta hai jo 'nums1' ke andar hi update ho jata hai.)
+ */
+
 import java.util.Arrays;
 
 public class MergeSortedArray {

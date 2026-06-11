@@ -1,3 +1,11 @@
+/*
+ * PROBLEM: Two Sum
+ * STATEMENT: Aapko ek integer array 'nums' aur ek integer 'target' diya hai. Aapko is array mein se aise do numbers dhoondne hain jinka sum (jod) 'target' ke barabar ho. Aapko un dono numbers ke indices (positions) ek array ke roop mein return karne hain. Aap maan sakte hain ki har input ka bilkul ek hi solution hoga, aur aap ek hi element ko do baar use nahi kar sakte.
+ * EXAMPLE: nums = [2, 7, 11, 15], target = 9
+ * Output: [0, 1]
+ * (Explanation: Kyunki nums[0] + nums[1] == 2 + 7 = 9 hai, jo ki hamare target ke barabar hai, isliye unke indices [0, 1] return honge.)
+ */
+
 import java.util.HashMap;
 
 public class TwoSum {

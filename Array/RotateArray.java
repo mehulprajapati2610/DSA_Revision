@@ -1,3 +1,11 @@
+/*
+ * PROBLEM: Rotate Array
+ * STATEMENT: Aapko ek integer array 'nums' diya hai. Aapko is array ko 'k' steps ke liye right side (aage ki taraf) rotate karna hai, jahan 'k' ek non-negative integer hai. Yeh rotation aapko in-place (usi array mein) karni hai.
+ * EXAMPLE: nums = [1, 2, 3, 4, 5], k = 1
+ * Output: [5, 1, 2, 3, 4]
+ * (Explanation: Array ko 1 step right rotate karne par aakhiri element '5' uthakar sabse aage aa jayega, aur baaki saare elements ek-ek position aage shift ho jayenge.)
+ */
+
 import java.util.Arrays;
 
 public class RotateArray {

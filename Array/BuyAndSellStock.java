@@ -1,3 +1,11 @@
+/*
+ * PROBLEM: Best Time to Buy and Sell Stock
+ * STATEMENT: Aapko ek array 'prices' diya hai jahan 'prices[i]' kisi stock ki ith day par price batata hai. Aapko ek single transaction (ek baar kharidna aur ek baar bechna) karke maximum profit earn karna hai. Note karein ki aap stock ko bechne se pehle hi kharid sakte hain (you must buy before you sell). Agar koi profit earn nahi kiya ja sakta, toh 0 return karein.
+ * EXAMPLE: prices = [7, 6, 5, 4, 3, 2, 1]
+ * Output: 0
+ * (Explanation: Is case mein prices lagatar kam ho rahi hain, isliye koi bhi profit nahi banaya ja sakta. Maximum profit 0 hoga.)
+ */
+
 public class BuyAndSellStock{
     public static void main(String[] args) {
         int[] prices = {7,6,5,4,3,2,1};

@@ -1,3 +1,11 @@
+/*
+ * PROBLEM: Spiral Matrix
+ * STATEMENT: Aapko ek $m \times n$ ka 2D matrix diya hai. Aapko us matrix ke saare elements ko spiral order (ghoomte hue, clockwise direction mein) print ya return karna hai, yaani sabse pehle top row left-to-right, fir right column top-to-bottom, fir bottom row right-to-left, aur fir left column bottom-to-top, aur yahi cycle andar ke elements ke liye repeat hogi.
+ * EXAMPLE: arr = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+ * Output: 1 2 3 6 9 8 7 4 5
+ * (Explanation: Jaisa ki spiral pattern hota hai, pehle bahar ki boundary [1->2->3->6->9->8->7->4] cover hui, aur fir andar ghoom kar bacha hua element [5] print hua.)
+ */
+
 public class SpiralMatrix {
     public static void main(String[] args) {
         int[][] arr = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};

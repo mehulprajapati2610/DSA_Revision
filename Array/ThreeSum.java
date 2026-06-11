@@ -1,3 +1,11 @@
+/*
+ * PROBLEM: 3Sum
+ * STATEMENT: Aapko ek integer array 'nums' diya hai. Aapko array mein se aise saare unique triplets (teen numbers ka group) dhoondne hain `[nums[i], nums[j], nums[k]]` jahan teeno alag-alag index par hon (`i != j`, `i != k`, aur `j != k`) aur unka sum zero (`nums[i] + nums[j] + nums[k] == 0`) ho. Dhyan rahe ki aapke output mein koi bhi duplicate triplet nahi hona chahiye.
+ * EXAMPLE: nums = [-1, 0, 1, 2, -1, -4]
+ * Output: [[-1, -1, 2], [-1, 0, 1]]
+ * (Explanation: Array ko sort karne par yeh `[-4, -1, -1, 0, 1, 2]` ban jata hai. Yahan do unique triplets milte hain jinka sum 0 hai: `-1 + (-1) + 2 = 0` aur `-1 + 0 + 1 = 0`.)
+ */
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

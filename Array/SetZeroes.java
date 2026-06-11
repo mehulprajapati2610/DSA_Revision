@@ -1,3 +1,11 @@
+/*
+ * PROBLEM: Set Matrix Zeroes
+ * STATEMENT: Aapko ek $m \times n$ ka integer matrix 'matrix' diya hai. Agar is matrix mein koi element 0 hai, toh aapko us pure element ke ROW (panti) aur COLUMN (stambh) ke saare elements ko 0 set karna hai. Yeh poora badlav aapko in-place (usi matrix ke andar) karna hai.
+ * EXAMPLE: matrix = [[1, 0, 1], [1, 1, 1], [0, 1, 1]]
+ * Output: [[0, 0, 0], [0, 0, 1], [0, 0, 0]]
+ * (Explanation: Index (0, 1) par 0 hone ki wajah se poori 0th row aur 1st column 0 ho jayenge, aur index (2, 0) par 0 hone ki wajah se poori 2nd row aur 0th column 0 ho jayenge.)
+ */
+
 import java.util.Arrays;
 
 public class SetZeroes {
