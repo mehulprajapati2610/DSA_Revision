@@ -1,3 +1,11 @@
+/*
+ * PROBLEM: Longest Substring Without Repeating Characters
+ * STATEMENT: Aapko ek string 's' di gayi hai. Aapko usme se sabse lambi aisi substring (lagatar characters) dhoondni hai jisme koi bhi character repeat (dubara) na ho raha ho, aur uski length return karni hai.
+ * EXAMPLE: s = "abcabcccbbbababaabcdfd"
+ * Output: 4
+ * (Explanation: Is string mein sabse lambi bina repeat hone wali substring "bcdf" hai, jiski length 4 hai.)
+ */
+
 import java.util.HashSet;
 
 public class LengthOfLongestSubstring {

@@ -1,3 +1,11 @@
+/*
+ * PROBLEM: Longest Common Prefix
+ * STATEMENT: Aapko strings ka ek array diya hai. Aapko un sabhi strings mein se sabse bada common shuruati hissa (prefix) dhoondna hai jo saari strings mein bilkul same ho. Agar koi common prefix nahi milta, toh khaali string "" return karein.
+ * EXAMPLE: str = ["flower", "flow", "flowing"]
+ * Output: "flow"
+ * (Explanation: Array ko sort karne par pehli string "flow" aur aakhiri "flowing" banti hai. Dono ka shuruati hissa "flow" aapas mein poora match karta hai, isliye yahi sabse bada common prefix hai.)
+ */
+
 import java.util.Arrays;
 
 public class LongestCommonPrefix {

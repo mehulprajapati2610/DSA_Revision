@@ -1,3 +1,11 @@
+/*
+ * PROBLEM: Roman to Integer
+ * STATEMENT: Aapko ek Roman numeral string 's' di gayi hai, aapko use ek normal integer (number) mein badalna hai. Agar koi chota symbol bade symbol se pehle aata hai, toh uski value subtract (ghatayi) jaati hai (jaise IV = 4), nahi toh saari values add hoti hain.
+ * EXAMPLE: s = "MCMXCVI"
+ * Output: 1996
+ * (Explanation: M (1000) + CM (1000-100=900) + XC (100-10=90) + V (5) + I (1) = 1996. Lekin aapke code ke logic mein ek chota sa bug hai jisse aakhiri character skip ho raha hai, use fix zaroor kar lijiyega!)
+ */
+
 public class RomanToInteger {
     public static void main(String[] args) {
         String s = "MCMXCVI";
