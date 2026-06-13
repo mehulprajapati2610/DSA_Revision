@@ -11,7 +11,7 @@ Every solution focuses on clarity, efficiency, and understanding the underlying 
 ## 🏁 Sprint Progress
 
 | Day | Topic                     | Status |
-| :-: | :------------------------ | :----: |
+|:---:|:--------------------------| :----: |
 |  1  | Arrays (Easy)             |    ✅   |
 |  2  | Arrays (Medium)           |    ✅   |
 |  3  | Arrays (Advanced)         |    ✅   |
@@ -21,7 +21,10 @@ Every solution focuses on clarity, efficiency, and understanding the underlying 
 |  7  | Linked List               |    ✅   |
 |  8  | Binary Search             |    ✅   |
 |  9  | Stack & Queue             |    ✅   |
-|  10 | Trees                     |    ✅   |
+| 10  | Trees                     |    ✅   |
+| 11  | Backtracking              |    ✅   |
+| 12  | BST & Heaps               |    ✅   |
+
 
 ---
 
